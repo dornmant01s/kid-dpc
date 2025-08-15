@@ -1,2 +1,0 @@
-# kid-dpc
-init
