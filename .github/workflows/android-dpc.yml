@@ -8,8 +8,9 @@ on:
         required: false
         default: "false"
   push:
-    tags:
-      - "v*"
+    branches: [ main ]     # ← 브랜치 커밋 시 자동 실행
+    tags: [ "v*" ]         # ← 태그 푸시/릴리스 시도 유지
+
 
 jobs:
   build:
